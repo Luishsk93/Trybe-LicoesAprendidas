@@ -1,0 +1,101 @@
+* {
+  background-color: rgb(253, 251, 251);
+}
+
+#cabecalho {
+  background-color: aqua;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border: 1px solid black;
+}
+
+#titulo {
+  background-color: aqua;
+  color: brown;
+  text-align: center;
+}
+
+#minha_foto {
+  margin-left: 0%;
+  margin-top: 80px;
+  position: absolute;
+  border: 1px solid black;
+  border-radius: 100%;
+}
+
+/* #secao_licoes {
+  margin-left: 46.5%;
+  margin-top: 290px;
+  position: absolute;
+} */
+
+#rodape {
+  margin-left: 0%;
+  margin-top: 750px;
+  position: absolute;
+}
+
+#artigo_licoes {
+  position: absolute;
+  display: inline-block;
+  margin-top: 570px;
+  border-style: dashed;
+  border-radius: 22%;
+  padding: 0 20px;
+  border-color: green;
+  border-width: 2px;
+}
+
+#aside_passagem {
+  position: absolute;
+  display: block;
+  margin-top: 570px;
+  border-style: dashed;
+  padding: 0 20px;
+  border-radius: 22%;
+  border-color: green;
+  border-width: 2px;
+}
+
+/* Usei como referencia o site https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_intro. */
+table {
+  font-family: monospace;
+  color: firebrick;
+  text-align: left;
+  line-height: 15px;
+  border-collapse: unset;
+  width: 100%;
+  font-size: small;
+}
+
+th {
+  text-align: center;
+  padding: 9px;
+}
+
+.lado-esquerdo {
+  display: inline-block;
+  position: absolute;
+  max-width: 50%;
+}
+
+.lado-direito {
+  display: inline-block;
+  position: absolute;
+  margin-left: 60%;
+}
+
+#licoes_aprendidas {
+  display: inline-block;
+  position: absolute;
+  margin-top: 300px;
+}
+
+#licoes_a_aprender {
+  display: inline-block;
+  position: absolute;
+  margin-left: 25%;
+  margin-top: 300px;
+}
